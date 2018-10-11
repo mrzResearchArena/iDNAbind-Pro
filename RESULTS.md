@@ -1,6 +1,9 @@
 # Performance Measures on Protein Datasets
 
-### DNA-binding Protein, trained on PDB1075 dataset
+### 1. DNA-binding Protein, trained on PDB1075 dataset
+
+Table 1: Different classifiers achieved during cross-fold validation on PDB1075 training dataset.
+
 | Classifier | Accuracy (%) |  auROC | auPR   | Sn (%) |  Sp (%)  | F1-Score |  MCC   |
 | :---       | :---:        | :---:  |  :---: | :---:  | :---:    | :---:    | ---:  |
 |LR| 90.88 |0.9662|0.9717|91.36|90.42|0.9089|0.8186|
@@ -14,11 +17,21 @@
 |Gradient Boosting|85.30|0.9309|0.9338|86.77|83.94|0.8555|0.7096|
 |LDA|87.63|0.9503|0.9563|88.26|87.04|0.8774|0.7541|
 
-Note: The number of DNA-binding protein (+ve) sequences and the number of non-DNA-binding protein (-ve) sequences are 525 and 550 respectively for the PDB1075 dataset.
+Note: The number of DNA-binding protein (+ve) sequences and the number of non-DNA-binding protein (-ve) sequences
+are 525 and 550 respectively for the PDB1075 dataset.
 
 &nbsp;
 
-### DNA-binding Protein, tested on PDB186 dataset
+![ROC_training1075](Protein_PDB1075.png)
+
+Figure 1: Receiver Operation Characteristic (ROC) curve for different classifiers achieved during cross-fold
+validation on PDB1075 training dataset.
+
+
+### 2. DNA-binding Protein, tested on PDB186 dataset
+
+Table 2: Different classifiers achieved during cross-fold validation on PDB186 testing dataset.
+
 | Classifier | Accuracy (%) |  auROC | auPR   | Sn (%) |  Sp (%)  | F1-Score |  MCC   |
 | :---       | :---:        | :---:  |  :---: | :---:  | :---:    | :---:    | :---:  |
 |LR|83.33|0.8780|0.8357|71.93|89.36|0.7480|0.6259|
@@ -33,5 +46,13 @@ Note: The number of DNA-binding protein (+ve) sequences and the number of non-DN
 |LDA|79.57|0.8762|0.7817|71.93|86.93|0.7312|0.5937|
 
 Note: The number of DNA-binding protein (+ve) sequences and the number of non-DNA-binding protein (-ve) sequences are 93 and  93 respectively for the PDB186 dataset.
+
+&nbsp;
+
+![ROC_testing186](Protein_PDB186.png)
+
+Figure 2: Receiver Operation Characteristic (ROC) curve for different classifiers achieved during cross-fold
+validation on PDB186 testing dataset.
+&nbsp;
 
 We can [download](http://server.malab.cn/Local-DPP/Datasets.html) DNA-binding protein datasets (PDB1075 and PDB186) from given link.
