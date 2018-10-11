@@ -59,4 +59,4 @@ validation on PDB186 testing dataset.
 
 &nbsp;
 
-We can [download](http://server.malab.cn/Local-DPP/Datasets.html) DNA-binding protein datasets (PDB1075 and PDB186) from given link.
+We can [download](http://server.malab.cn/Local-DPP/Datasets.html) DNA-binding protein datasets (PDB1075 and PDB186) from the given link.
