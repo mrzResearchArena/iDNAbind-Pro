@@ -2,6 +2,8 @@
 
 ### 1. DNA-binding Protein, trained on PDB1075 dataset
 
+&nbsp;
+
 Table 1: Different classifiers achieved during cross-fold validation on PDB1075 training dataset.
 
 | Classifier | Accuracy (%) |  auROC | auPR   | Sn (%) |  Sp (%)  | F1-Score |  MCC   |
@@ -29,6 +31,8 @@ validation on PDB1075 training dataset.
 &nbsp;
 
 ### 2. DNA-binding Protein, tested on PDB186 dataset
+
+&nbsp;
 
 Table 2: Different classifiers achieved during cross-fold validation on PDB186 testing dataset.
 
