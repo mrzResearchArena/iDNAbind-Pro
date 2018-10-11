@@ -21,12 +21,12 @@ Note: The number of DNA-binding protein (+ve) sequences and the number of non-DN
 are 525 and 550 respectively for the PDB1075 dataset.
 
 &nbsp;
-
 ![ROC_training1075](Protein_PDB1075.png)
 
 Figure 1: Receiver Operation Characteristic (ROC) curve for different classifiers achieved during cross-fold
 validation on PDB1075 training dataset.
 
+&nbsp;
 
 ### 2. DNA-binding Protein, tested on PDB186 dataset
 
@@ -48,11 +48,10 @@ Table 2: Different classifiers achieved during cross-fold validation on PDB186 t
 Note: The number of DNA-binding protein (+ve) sequences and the number of non-DNA-binding protein (-ve) sequences are 93 and  93 respectively for the PDB186 dataset.
 
 &nbsp;
-
 ![ROC_testing186](Protein_PDB186.png)
 
 Figure 2: Receiver Operation Characteristic (ROC) curve for different classifiers achieved during cross-fold
 validation on PDB186 testing dataset.
-&nbsp;
 
+&nbsp;
 We can [download](http://server.malab.cn/Local-DPP/Datasets.html) DNA-binding protein datasets (PDB1075 and PDB186) from given link.
