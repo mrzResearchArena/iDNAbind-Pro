@@ -70,7 +70,7 @@ user@machine:~$ python main.py --testDataset=1 --fasta=/home/user/iDNAbind-Pro/P
 ***`or,`***
 
 ```console
-user@machine:~$ python main.py -test=1 -fa=/home/user/iDNAbind-Pro/ProteinDatasets/PDB186_independentFASTA.txt -la=/home/user//Datasets/Protein/PDB186_PDB186_independentLabel.txt -ktuple=3 -kgap=5 -pseudo=1 -atgc=1 -f11=1 -f12=1 -f13=1 -f21=1 -f22=1 -f23=1 -f31=1 -f32=1
+user@machine:~$ python main.py -test=1 -fa=/home/user/iDNAbind-Pro/ProteinDatasets/PDB186_independentFASTA.txt -la=/home/user/iDNAbind-Pro/ProteinDatasets/PDB186_PDB186_independentLabel.txt -ktuple=3 -kgap=5 -pseudo=1 -atgc=1 -f11=1 -f12=1 -f13=1 -f21=1 -f22=1 -f23=1 -f31=1 -f32=1
 ```
 
 [ Comment: The `= sign` is optional. ]
